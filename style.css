@@ -1,0 +1,72 @@
+* {
+   margin: 0;
+   padding: 0;
+   border-sizing: border-box; 
+}
+h1 {
+    font-size: 30px;
+    color:aqua
+}
+
+body {
+    background:#bb2727;
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+.textlabel {
+
+    margin: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(107, 32, 3);
+}
+.campotexto {
+    padding: 10px;
+    border: 1px solid #38bb27;
+    border-radius: 37px;
+    outline: none;
+    transition: 0.3s;
+}
+.campotexto {
+    border-color: rgb(211, 0, 0);
+    box-shadow: 0,0,5px #4a904a
+}
+.form {
+    
+    background: rgb(255, 200, 98);
+    width: 350px;
+    padding: 30px;
+    border-radius: 37px;
+    box-shadow: 0 4px 10px #000001;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000001
+}
+#tituloform {
+
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff5e00;
+
+}
+#bnenviar {
+    
+    margin-top: 20px;
+    padding: 12px;
+    background: rgb(255, 153, 0);
+    color: white;
+    border: 1px solid #bb2727;
+    border-radius: 37px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s
+
+}
+
+#bnenviar:hover {
+    background: rgb(255, 102, 0);
+}
